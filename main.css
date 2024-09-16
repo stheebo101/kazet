@@ -1,0 +1,84 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 132px 350px 255px;
+  width: calc(132px + 350px + 255px + 70px);
+  column-gap: 35px;
+}
+
+/*div {
+    outline: 5px solid yellow;
+  }*/
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#right {
+  height: 81vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div a {
+  max-width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+p,
+h1 {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  opacity: 0.1;
+  position: relative;
+  top: 29vh;
+}
+
+article {
+  flex-grow: 1;
+}
+
+p.quote {
+  position: relative;
+  top: 29vh;
+}
+
+/*div {
+      background-color: #f8f;
+    }*/
+
+span.author {
+  position: relative;
+  top: 32vh;
+  opacity: 0.23;
+}
+span.year {
+  position: relative;
+  top: 33vh;
+  opacity: 0.3;
+  display: block;
+}
+
+.dotted-line-vertical {
+  border-left: 2px dotted black;
+  height: 81vh;
+  position: relative;
+  left: 66px;
+  opacity: 0.1;
+}
+
+.copyright {
+  opacity: 0.1;
+}
